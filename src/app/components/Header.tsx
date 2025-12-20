@@ -8,12 +8,19 @@ export function Header() {
   const { theme, toggleTheme } = useTheme();
 
   const scrollToSection = (sectionId: string) => {
+  setIsMenuOpen(false); 
+
+  setTimeout(() => {
     const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false);
-    }
-  };
+    if (!element) return;
+
+    window.scrollTo({
+      top: element.offsetTop - 90, 
+      behavior: "smooth",
+    });
+  }, 300); 
+};
+
 
   return (
     <motion.header

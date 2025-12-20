@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 
 export function About() {
   return (
-    <section id="about" className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300">
+    <section id="about" className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300 ">
       <div className="max-w-6xl mx-auto px-6">
         <motion.h2
           className="text-4xl text-center mb-12 text-gray-900 dark:text-white transition-colors duration-300"
