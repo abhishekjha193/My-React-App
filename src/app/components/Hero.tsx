@@ -43,7 +43,7 @@ export function Hero() {
               delay: 0.1
             }}
           >
-           <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg"><img src="/Assets/1.png" alt="" className="w-full h-full object-cover object-top" /></div>
+           <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg"><img src="/assets/project/1.png" alt="" className="w-full h-full object-cover object-top" /></div>
 
           </motion.div>
   

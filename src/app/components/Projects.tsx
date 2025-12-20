@@ -6,7 +6,7 @@ export function Projects() {
     {
       title: "NotesApp – Multi-User Notes Application",
       description: "Full-stack notes app using Node.js, Express.js, EJS, and MongoDB with CRUD operations, RESTful APIs, and secure session-based authentication.",
-      image: "/Assets/project/a.png",
+      image: "/assets/project/a.png",
       tags: ["Node.js", "Express.js", "MongoDB", "Bootstrap"],
       githubUrl: "https://github.com/abhishekjha193/notes-app",
       liveUrl: "https://github.com/abhishekjha193/notes-app"
@@ -14,7 +14,7 @@ export function Projects() {
     {
       title: "RentNest – Property Listing Platform",
       description: "Property listing platform allowing users to register, log in, and search properties using MongoDB and EJS with secure authentication.",
-      image: "/Assets/project/b.png",
+      image: "/assets/project/b.png",
       tags: ["MongoDB", "EJS", "Node.js", "React (Planned)"],
       githubUrl: "https://github.com/abhishekjha193",
       liveUrl: "https://github.com/abhishekjha193"
@@ -22,7 +22,7 @@ export function Projects() {
     {
       title: "MovieVerse – Dynamic Movie Landing Page",
       description: "Responsive, cinematic landing page displaying trending movies with dynamic components, animations, and optimized performance.",
-      image: "/Assets/project/c.png",
+     image: "/assets/project/c.png",
       tags: ["HTML", "CSS", "JavaScript", "Flexbox"],
       githubUrl: "https://github.com/abhishekjha193/-MovieVerse-Dynamic-Movie-Landing-Page",
       liveUrl: "https://github.com/abhishekjha193/-MovieVerse-Dynamic-Movie-Landing-Page"
@@ -30,7 +30,7 @@ export function Projects() {
     {
       title: "ModeLuxe – Fashion Agency Website",
       description: "Mobile-first fashion website with responsive layouts, interactive sliders, form validation, and optimized performance.",
-      image: "/Assets/project/d.png",
+     image: "/assets/project/d.png",
       tags: ["HTML", "CSS", "JavaScript", "UX Design"],
       githubUrl: "https://github.com/abhishekjha193/Fashion-Modeling-Agency-Website",
       liveUrl: "https://github.com/abhishekjha193/Fashion-Modeling-Agency-Website"
